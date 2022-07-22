@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: rgb(7, 55, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fill {
+    background: url("img.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.empty {
+    height: 260px;
+    width: 260px;
+    border: 2px solid #000;
+    display: inline-block;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.hold {
+    border: 4px solid red;
+}
+
+.hovered {
+    background-color: #006ead;
+    border-style: dotted;
+}
+
+.invisible {
+    display: none;
+}
